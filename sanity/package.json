@@ -1,0 +1,48 @@
+{
+  "name": "tachingon",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Luis Haroldo Castro Cabrera <luish.castroc@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ]
+  },
+  "dependencies": {
+    "@sanity/base": "^2.0.5",
+    "@sanity/components": "^2.0.5",
+    "@sanity/core": "^2.0.5",
+    "@sanity/default-layout": "^2.0.5",
+    "@sanity/default-login": "^2.0.5",
+    "@sanity/desk-tool": "^2.0.5",
+    "@sanity/vision": "^2.0.5",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2"
+  }
+}
